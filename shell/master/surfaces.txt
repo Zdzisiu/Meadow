@@ -1,0 +1,287 @@
+descript
+{
+	version,1
+}
+surface0
+{
+	collision1,150,480,212,430,Basket
+	collisionex3,Flowers,polygon,68,154,77,342,109,360,142,339,185,353,202,260,230,340,243,287,202,259,206,230,254,219,263,265,298,281,313,274,331,331,387,282,404,142,370,87,324,99,283,63,245,72,191,41,131,101,70,121
+	collisionex4,Grass,polygon,76,498,107,439,181,407,210,410,187,431,208,427,225,446,274,427,312,440,322,430,302,398,357,392,417,431,423,502
+	collisionex2,Bark,polygon,205,262,270,304,272,339,212,408,191,430,227,443,322,431,300,389,319,326,306,289,280,268,259,252,254,220,204,239
+}
+
+sakura.tooltips
+{
+Basket,Clear out the meadow.
+Flowers,Grow a flower.
+Grass,Grow grass.
+Bark,Grow something.
+}
+
+//—————————————————————————————— Kero surfaces ——————————————————————————————
+surface1-3
+{
+	animation100.interval,never
+	animation100.pattern0,overlay,100,0,0,0
+
+	animation101.interval,never
+	animation101.pattern0,overlay,101,0,0,0
+
+	animation102.interval,never
+	animation102.pattern0,overlay,102,0,0,0
+
+	animation103.interval,never
+	animation103.pattern0,overlay,103,0,0,0
+
+	animation11.interval,never
+	animation11.pattern0,overlay,11,0,0,0
+
+	animation12.interval,never
+	animation12.pattern0,overlay,12,0,0,0
+
+	animation13.interval,never
+	animation13.pattern0,overlay,13,0,0,0
+
+	animation14.interval,never
+	animation14.pattern0,overlay,14,0,0,0
+
+	animation15.interval,never
+	animation15.pattern0,overlay,15,0,0,0
+
+	animation16.interval,never
+	animation16.pattern0,overlay,16,0,0,0
+
+	animation17.interval,never
+	animation17.pattern0,overlay,17,0,0,0
+
+	animation18.interval,never
+	animation18.pattern0,overlay,18,0,0,0
+
+	animation19.interval,never
+	animation19.pattern0,overlay,19,0,0,0
+
+	animation20.interval,never
+	animation20.pattern0,overlay,20,0,0,0
+
+	animation21.interval,never
+	animation21.pattern0,overlay,21,0,0,0
+
+	animation22.interval,never
+	animation22.pattern0,overlay,22,0,0,0
+
+	animation23.interval,never
+	animation23.pattern0,overlay,23,0,0,0
+
+	animation24.interval,never
+	animation24.pattern0,overlay,24,0,0,0
+}
+
+surface1
+{
+	animation30.interval,never
+	animation30.pattern0,overlay,30,0,0,0
+
+	animation31.interval,never
+	animation31.pattern0,overlay,31,0,0,0
+
+	animation32.interval,never
+	animation32.pattern0,overlay,32,0,0,0
+
+	animation33.interval,never
+	animation33.pattern0,overlay,33,0,0,0
+
+	animation34.interval,never
+	animation34.pattern0,overlay,34,0,0,0
+
+	animation35.interval,never
+	animation35.pattern0,overlay,35,0,0,0
+
+	animation36.interval,never
+	animation36.pattern0,overlay,36,0,0,0
+
+	animation37.interval,never
+	animation37.pattern0,overlay,37,0,0,0
+
+	animation38.interval,never
+	animation38.pattern0,overlay,38,0,0,0
+
+	animation39.interval,never
+	animation39.pattern0,overlay,39,0,0,0
+
+	animation40.interval,never
+	animation40.pattern0,overlay,40,0,0,0
+
+	animation41.interval,never
+	animation41.pattern0,overlay,41,0,0,0
+
+	animation42.interval,never
+	animation42.pattern0,overlay,42,0,0,0
+
+	animation43.interval,never
+	animation43.pattern0,overlay,43,0,0,0
+
+	animation44.interval,never
+	animation44.pattern0,overlay,44,0,0,0
+
+	animation45.interval,never
+	animation45.pattern0,overlay,45,0,0,0
+
+	animation46.interval,never
+	animation46.pattern0,overlay,46,0,0,0
+
+	animation47.interval,never
+	animation47.pattern0,overlay,47,0,0,0
+
+	animation48.interval,never
+	animation48.pattern0,overlay,48,0,0,0
+
+	animation49.interval,never
+	animation49.pattern0,overlay,49,0,0,0
+
+	animation50.interval,never
+	animation50.pattern0,overlay,50,0,0,0
+}
+
+surface2
+{
+	animation30.interval,never
+	animation30.pattern0,overlay,51,0,0,0
+
+	animation31.interval,never
+	animation31.pattern0,overlay,52,0,0,0
+
+	animation32.interval,never
+	animation32.pattern0,overlay,53,0,0,0
+
+	animation33.interval,never
+	animation33.pattern0,overlay,54,0,0,0
+
+	animation34.interval,never
+	animation34.pattern0,overlay,55,0,0,0
+
+	animation35.interval,never
+	animation35.pattern0,overlay,56,0,0,0
+
+	animation36.interval,never
+	animation36.pattern0,overlay,57,0,0,0
+
+	animation37.interval,never
+	animation37.pattern0,overlay,58,0,0,0
+
+	animation38.interval,never
+	animation38.pattern0,overlay,59,0,0,0
+
+	animation39.interval,never
+	animation39.pattern0,overlay,60,0,0,0
+
+	animation40.interval,never
+	animation40.pattern0,overlay,61,0,0,0
+
+	animation41.interval,never
+	animation41.pattern0,overlay,62,0,0,0
+
+	animation42.interval,never
+	animation42.pattern0,overlay,63,0,0,0
+
+	animation43.interval,never
+	animation43.pattern0,overlay,64,0,0,0
+
+	animation44.interval,never
+	animation44.pattern0,overlay,65,0,0,0
+
+	animation45.interval,never
+	animation45.pattern0,overlay,66,0,0,0
+
+	animation46.interval,never
+	animation46.pattern0,overlay,67,0,0,0
+
+	animation47.interval,never
+	animation47.pattern0,overlay,68,0,0,0
+
+	animation48.interval,never
+	animation48.pattern0,overlay,69,0,0,0
+
+	animation49.interval,never
+	animation49.pattern0,overlay,70,0,0,0
+
+	animation50.interval,never
+	animation50.pattern0,overlay,71,0,0,0
+}
+
+surface3
+{
+	animation30.interval,never
+	animation30.pattern0,overlay,72,0,0,0
+
+	animation31.interval,never
+	animation31.pattern0,overlay,73,0,0,0
+
+	animation32.interval,never
+	animation32.pattern0,overlay,74,0,0,0
+
+	animation33.interval,never
+	animation33.pattern0,overlay,75,0,0,0
+
+	animation34.interval,never
+	animation34.pattern0,overlay,76,0,0,0
+
+	animation35.interval,never
+	animation35.pattern0,overlay,77,0,0,0
+
+	animation36.interval,never
+	animation36.pattern0,overlay,78,0,0,0
+
+	animation37.interval,never
+	animation37.pattern0,overlay,79,0,0,0
+
+	animation38.interval,never
+	animation38.pattern0,overlay,80,0,0,0
+
+	animation39.interval,never
+	animation39.pattern0,overlay,81,0,0,0
+
+	animation40.interval,never
+	animation40.pattern0,overlay,82,0,0,0
+
+	animation41.interval,never
+	animation41.pattern0,overlay,83,0,0,0
+
+	animation42.interval,never
+	animation42.pattern0,overlay,84,0,0,0
+
+	animation43.interval,never
+	animation43.pattern0,overlay,85,0,0,0
+
+	animation44.interval,never
+	animation44.pattern0,overlay,86,0,0,0
+
+	animation45.interval,never
+	animation45.pattern0,overlay,87,0,0,0
+
+	animation46.interval,never
+	animation46.pattern0,overlay,88,0,0,0
+
+	animation47.interval,never
+	animation47.pattern0,overlay,89,0,0,0
+
+	animation48.interval,never
+	animation48.pattern0,overlay,90,0,0,0
+
+	animation49.interval,never
+	animation49.pattern0,overlay,91,0,0,0
+
+	animation50.interval,never
+	animation50.pattern0,overlay,92,0,0,0
+}
+
+surface11
+{
+	animation200.interval,never
+	animation200.pattern0,overlay,200,0,0,0
+
+	animation201.interval,never
+	animation201.pattern0,overlay,201,0,0,0
+
+	animation202.interval,never
+	animation202.pattern0,overlay,202,0,0,0
+}

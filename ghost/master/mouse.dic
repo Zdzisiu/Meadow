@@ -1,0 +1,55 @@
+OnMouseDoubleClick : all
+{
+	if reference5 == 0 //reference5 is the mouse button being clicked, in this case a left click
+	{
+		if reference3 == 0
+		{
+			if reference4 == "Basket"
+			{
+				foreach onScreen; _item
+				{
+					if _item != 0 && _item != ""; _item + "\s[-1]"
+				}
+				onScreen = IARRAY
+			}
+			else
+			{
+				Grow(reference4)
+			}
+		}
+		else
+		{
+			onScreen[reference3 - 2] = 0
+			"\p[%(reference3)]\s[-1]"
+		}
+	}
+}
+
+Grow : all
+{
+	_char = 2
+	if ASEARCH(0,onScreen) != -1
+	{
+		_char = ASEARCH(0,onScreen)
+		onScreen[_char] = "\p[" + (_char + 2) + "]" + GrowGen(_argv[0])
+	}
+	else
+	{
+		_char = ARRAYSIZE(onScreen)
+		onScreen ,= "\p[" + (_char + 2) + "]" + GrowGen + GrowGen(_argv[0])
+	}
+
+	onScreen[_char]
+	"\p[%(_char+2)]\![move,--X=%(RAND(displaywidth)),--time=0,--base=screen]"
+}
+
+GrowGen
+{
+	if _argv[0] == "Grass"; "\s[11]\i[" + (200 + RAND(3)) + "]"
+	if _argv[0] == "Flowers"; "\s[" + (RAND(3) + 1) + "]\i[" + (100 + RAND(4)) + "]\i[" + (30 + RAND(21)) + "]\i[" + (11 + RAND(14)) + "]"
+	if _argv[0] == "Bark"
+	{
+		"\s[" + (RAND(3) + 1) + "]\i[" + (100 + RAND(4)) + "]\i[" + (30 + RAND(21)) + "]\i[" + (11 + RAND(14)) + "]"
+		"\s[11]\i[" + (200 + RAND(3)) + "]"
+	}
+}

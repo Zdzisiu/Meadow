@@ -1,0 +1,10 @@
+charset,UTF-8
+type,shell
+
+name,Simple Meadow
+craftman,
+craftmanw,
+craftmanurl,
+
+seriko.alignmenttodesktop,bottom
+seriko.use_self_alpha,1

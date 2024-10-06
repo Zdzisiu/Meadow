@@ -1,0 +1,17 @@
+charset,UTF-8
+
+name,Meadow
+type,ghost
+
+shiori,yaya.dll
+
+craftman,Zdzisiu
+craftmanw,Zdzisiu
+craftmanurl,https://zdzisiu.github.io/Cemetery/
+
+sakura.name,Tree
+kero.name,Flowers
+
+icon,icon.ico
+
+sstp.allowunspecifiedsend,0

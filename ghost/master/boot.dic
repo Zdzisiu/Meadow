@@ -1,0 +1,30 @@
+OnFirstBoot
+{
+	stroke = 0
+	LastTalk = ""
+	onScreen = IARRAY
+	
+	"\1\s[-1]\0\s[0]"
+}
+
+OnInitialize
+{
+	if reference0 != "reload" //For things you want to reset EXCEPT when just reloading; a convenience for you the dev, basically
+	{
+		LastTalk = ""
+	}
+}
+
+OnBoot
+{
+	"\1\s[-1]\0\s[0]"
+	foreach onScreen; _item
+	{
+		if _item != 0 && _item != ""; _item
+	}
+}
+
+OnClose
+{
+	"\w8\w8\-"
+}
