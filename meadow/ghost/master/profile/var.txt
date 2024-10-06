@@ -4,4 +4,4 @@ surfacecount,85
 update_result,NG(timeout)
 firstboot,781046941
 commitmemorysize,684739
-lastboot,781552435
+lastboot,781553456

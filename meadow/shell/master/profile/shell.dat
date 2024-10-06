@@ -61,13 +61,13 @@ Char9.balloon.isleft,1
 Char43.balloon.isleft,0
 Char10.center,1648
 Char30.center,951
-Char5.center,1648
+Char5.center,1504
 Char46.balloon.isleft,1
 Char27.balloon.isleft,1
 Char29.center,1648
 Char0.balloon.isleft,1
-Char3.center,1196
-Char6.center,1239
+Char3.center,1122
+Char6.center,453
 Char11.center,1648
 Char11.centery,1002
 Char13.centery,1002
@@ -90,7 +90,7 @@ Char37.centery,1002
 Char39.centery,1002
 Char6.balloon.isleft,1
 Char16.balloon.isleft,1
-Char4.center,436
+Char4.center,1201
 Char41.centery,1002
 Char43.centery,1002
 Char45.centery,1002
@@ -100,7 +100,7 @@ Char19.balloon.isleft,0
 Char21.balloon.isleft,1
 Char28.center,150
 Char48.center,1648
-Char2.center,1648
+Char2.center,1353
 Char24.balloon.isleft,0
 Char26.center,1076
 Char46.center,1648
@@ -131,7 +131,7 @@ Char23.center,733
 Char43.center,360
 Char34.balloon.isleft,1
 Char15.balloon.isleft,1
-Char5.balloon.isleft,0
+Char5.balloon.isleft,1
 Char10.centery,1002
 Char12.centery,1002
 Char21.center,1321

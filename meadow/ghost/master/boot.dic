@@ -15,7 +15,7 @@ OnInitialize
 	}
 }
 
-OnBoot
+OnBoot : all
 {
 	"\1\s[-1]\0\s[0]"
 	foreach onScreen; _item
